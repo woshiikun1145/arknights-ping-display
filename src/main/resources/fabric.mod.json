@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "arknights-endfield-ping-and-server-packet-rate-display",
+  "version": "1.0.0",
+  "name": "Arknights: Endfield Ping and Server Packet Rate Display",
+  "description": "Displays real-time ping and server packet rate with color-coded warnings.",
+  "authors": ["YourName"],
+  "contact": {},
+  "license": "All Rights Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.arknightsendfieldpingandserverpacketratedisplay.ArknightsEndfieldPingDisplayClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.1"
+  }
+}
